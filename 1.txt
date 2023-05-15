@@ -26,5 +26,8 @@ git log --pretty=oneline 查看在一行显示的日志
 
 将本地的库push到github git push origin master
 
+git branch 获取仓库所有分支名字，有*的是当前分支名字
+master是本地分支名字，origin是指远程仓库
+
 
 
