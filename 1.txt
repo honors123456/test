@@ -11,3 +11,5 @@ git commit -m "提交到仓库"
  
 
 在commit之后发现写错了，需要版本回退git reset --hard HEAD^ 回到上一个commit,HEAD^^回到前两个commit
+
+第一行
