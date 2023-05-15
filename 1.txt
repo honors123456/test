@@ -22,5 +22,9 @@ git log --pretty=oneline 查看在一行显示的日志
 
 在版本库删除2.txt git rm 2.txt
 
+从github拉取库 git clone .....
+
+将本地的库push到github git push origin master
+
 
 
