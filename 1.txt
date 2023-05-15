@@ -7,5 +7,5 @@ git commit -m "提交到仓库"
  
 如果再git add之前发现文件写错了，只需要git checkout -- 1.txt就会撤销再文件中的上次操作
 
-在git add之后发现文件写错了，需要git reset HEAD 1.txt,将暂存区的东西撤销，再git checkout -- 1.txt将工作区的东西撤销
+在git add之后发现文件写错了，需要git restore --staged 1.txt,将暂存区的东西撤销，再git restore 1.txt将工作区的东西撤销
  
