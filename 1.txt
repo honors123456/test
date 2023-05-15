@@ -3,6 +3,8 @@
 git add 1.txt
 git commit -m "提交到仓库"
 
+git log 查看日志
+git log --pretty=oneline 查看在一行显示的日志
 修改文件之后，要git add 然后再git commit -m 
  
 如果再git add之前发现文件写错了，只需要git checkout -- 1.txt就会撤销再文件中的上次操作
@@ -13,3 +15,6 @@ git commit -m "提交到仓库"
 在commit之后发现写错了，需要版本回退git reset --hard HEAD^ 回到上一个commit,HEAD^^回到前两个commit
 
 第一行
+
+回退到指定版本，git reflog 获取所有commmit,git reset --hard 指定版本的hash值
+
