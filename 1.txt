@@ -20,3 +20,7 @@ git log --pretty=oneline 查看在一行显示的日志
 
 误删了工作区的文件，用git restore 2.txt恢复
 
+在版本库删除2.txt git rm 2.txt
+
+
+
