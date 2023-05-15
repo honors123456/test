@@ -1,2 +1,8 @@
 第一次添加文件
 修改了文件
+git add 1.txt
+git commit -m "提交到仓库"
+
+修改文件之后，要git add 然后再git commit -m 
+
+如果再git add之前发现文件写错了，只需要git checkout -- 1.txt就会撤销再文件中的上次操作
